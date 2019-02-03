@@ -7,10 +7,29 @@
   width: 100%;
   height: 100%;
   position: absolute;
+  background-color: #f0f2f5;
+}
+
+.main_header {
+  height: 50px !important;
+  background-color: white;
+  line-height: 50px;
+}
+
+.main_header .font_family {
+  font-size: 30px;
+}
+
+.main_header .cor {
+  background-color: red;
+}
+
+.main_main {
+  height: 100%;
 }
 
 .side {
-  width: 200px;
+  width: 100%;
   background-color: #1d2437;
   height: 100%;
   float: left;
@@ -21,6 +40,10 @@
   width: 100%;
   padding-left: 20px;
   background-color: #101728;
+}
+
+.side .main_menu .el-menu {
+  border: none;
 }
 
 .side .main_menu .el-submenu__title:hover {
