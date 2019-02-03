@@ -3,6 +3,42 @@
   padding: 0;
 }
 
+.main_container {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.side {
+  width: 200px;
+  background-color: #1d2437;
+  height: 100%;
+  float: left;
+
+  .logo-all {
+    height: 50px;
+    width: 100%;
+    padding-left: 20px;
+    background-color: #101728;
+  }
+
+  .main_menu {
+
+    .el-submenu__title:hover {
+      background-color: #101728 !important;
+    }
+
+    .el-menu-item:hover {
+      background-color: #101728 !important;
+    }
+
+  }
+
+}
+
+
+
+
 
 
 .dev-nav {
@@ -10,49 +46,54 @@
     display: inline-block;
   }
 }
-.login-form{
-    width:460px;
-    .el-icon-success
-    {
-       font-size: 50px;
-        color: green;
-        text-align: center;
-    }
-    span{
-        font-size: 12px;
-        color: darkgray;
-    }
-    input{
-        height: 40px;
-        width: 358px;
-    }
-      .avatar-uploader .el-upload {
-        border: 1px dashed #d9d9d9;
-        border-radius: 6px;
-        cursor: pointer;
-        position: relative;
-        overflow: hidden;
-      }
 
-      .avatar-uploader .el-upload:hover {
-        border-color: #409EFF;
-      }
+.login-form {
+  width: 460px;
 
-      .avatar-uploader-icon {
-        font-size: 28px;
-        color: #8c939d;
-        width: 100px;
-        height: 100px;
-        line-height: 100px;
-        text-align: center;
-      }
+  .el-icon-success {
+    font-size: 50px;
+    color: green;
 
-      .avatar {
-        width: 178px;
-        height: 178px;
-        display: block;
-      }
+  }
+
+  span {
+    font-size: 12px;
+    color: darkgray;
+  }
+
+  input {
+    height: 40px;
+    width: 358px;
+  }
+
+  .avatar-uploader .el-upload {
+    border: 1px dashed #d9d9d9;
+    border-radius: 6px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .avatar-uploader .el-upload:hover {
+    border-color: #409EFF;
+  }
+
+  .avatar-uploader-icon {
+    font-size: 28px;
+    color: #8c939d;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+  }
+
+  .avatar {
+    width: 178px;
+    height: 178px;
+    display: block;
+  }
 }
+
 .singup {
   position: fixed;
   justify-items: center;

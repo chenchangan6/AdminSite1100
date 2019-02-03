@@ -6,6 +6,7 @@
   <li><nuxt-link to="/singUp/teacher/singUp">讲师注册页面</nuxt-link></li>
   <li><nuxt-link to="/singUp/teacher/addInfo">完善信息</nuxt-link></li>
   <li><nuxt-link to="/singUp/teacher/finish">完成注册</nuxt-link></li>
+  <li><nuxt-link to="/admin/dashboard/dashboard">工作台</nuxt-link></li>
 
 </ul>
     </div>

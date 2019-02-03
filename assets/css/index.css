@@ -3,6 +3,34 @@
   padding: 0;
 }
 
+.main_container {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.side {
+  width: 200px;
+  background-color: #1d2437;
+  height: 100%;
+  float: left;
+}
+
+.side .logo-all {
+  height: 50px;
+  width: 100%;
+  padding-left: 20px;
+  background-color: #101728;
+}
+
+.side .main_menu .el-submenu__title:hover {
+  background-color: #101728 !important;
+}
+
+.side .main_menu .el-menu-item:hover {
+  background-color: #101728 !important;
+}
+
 .dev-nav li {
   display: inline-block;
 }
@@ -14,7 +42,6 @@
 .login-form .el-icon-success {
   font-size: 50px;
   color: green;
-  text-align: center;
 }
 
 .login-form span {
