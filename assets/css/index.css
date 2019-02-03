@@ -7,6 +7,53 @@
   display: inline-block;
 }
 
+.login-form {
+  width: 460px;
+}
+
+.login-form .el-icon-success {
+  font-size: 50px;
+  color: green;
+  text-align: center;
+}
+
+.login-form span {
+  font-size: 12px;
+  color: darkgray;
+}
+
+.login-form input {
+  height: 40px;
+  width: 358px;
+}
+
+.login-form .avatar-uploader .el-upload {
+  border: 1px dashed #d9d9d9;
+  border-radius: 6px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+
+.login-form .avatar-uploader .el-upload:hover {
+  border-color: #409EFF;
+}
+
+.login-form .avatar-uploader-icon {
+  font-size: 28px;
+  color: #8c939d;
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+}
+
+.login-form .avatar {
+  width: 178px;
+  height: 178px;
+  display: block;
+}
+
 .singup {
   position: fixed;
   justify-items: center;
@@ -17,7 +64,13 @@
 }
 
 .singup .box-card {
-  width: 480px;
+  width: 640px;
+  padding: 20px;
+}
+
+.singup .box-card .login-input input {
+  height: 40px;
+  width: 358px;
 }
 
 .login {
@@ -58,7 +111,7 @@
   text-align: center;
   height: 40px;
   font-size: 14px;
-  color: gray;
+  color: whitesmoke;
   width: 100%;
 }
 /*# sourceMappingURL=index.css.map */
