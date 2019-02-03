@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.dev-nav{
+    li{
+        display: inline-block;
+    }
+}
+.singup{
+    position: fixed;
+    justify-items: center;
+    left:50%;
+    top:50%;
+    margin-left:-240px;
+    margin-top:-340px;
+     .box-card {
+       width: 480px;
+     }
+}
+
+.login{
+    
+    position: fixed;
+    justify-items: center;
+    left:50%;
+    top:50%;
+    margin-left:-240px;
+    margin-top:-340px;
+    
+    @at-root.login-background{
+        height: 100%;
+        width:100%;
+        position:fixed;
+        text-align: center;
+        background-image: url("http://5b0988e595225.cdn.sohucs.com/images/20180408/e417387a12f548aa84127502af6a1a28.jpeg");
+    }
+    .box-card{
+        width: 480px;
+        
+        
+    }
+    .logo
+    {
+        width: 90px;
+        height: 90px;
+        background-color: gray;
+        
+    }
+    input{
+
+        height: 40px;
+        width:360px;
+        
+    }
+    @at-root.login-copyright{
+        position: fixed;
+        bottom: 10%;
+        text-align: center;
+        height: 40px;
+        font-size: 14px;
+        color: gray;
+        width: 100%;
+    }
+
+}

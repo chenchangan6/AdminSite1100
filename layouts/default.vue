@@ -1,13 +1,29 @@
 <template>
   <div>
-    <nuxt />
+    <div class="dev-nav">
+<ul class="dev-nav">
+  <li><nuxt-link to="/login">后台登陆页面</nuxt-link></li>
+  <li><nuxt-link to="/singUp/teacher/singUp">讲师注册页面</nuxt-link></li>
+  <li><nuxt-link to="/login">后台登陆页面</nuxt-link></li>
+</ul>
+    </div>
+    <nuxt/>
   </div>
 </template>
+<script>
+export default {
+  data() {
+    return {
+      cc: 11
+    };
+  }
+};
+</script>
 
 <style>
 html {
-  font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
-    Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif;
   font-size: 16px;
   word-spacing: 1px;
   -ms-text-size-adjust: 100%;

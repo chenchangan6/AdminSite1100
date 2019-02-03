@@ -2,7 +2,7 @@
   "name": "AdminSite1100",
   "version": "1.0.0",
   "description": "新农人学社后台1.1",
-  "author": "charles chen",
+  "author": "Charles Chen",
   "private": true,
   "scripts": {
     "dev": "nuxt",
